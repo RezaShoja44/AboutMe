@@ -1,0 +1,126 @@
+header {
+  position: static;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  text-align: center;
+  background: url("teh.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Segoe UI";
+  margin: 0 0;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+input {
+  border: 0;
+  padding: 11px;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 23.8%;
+}
+
+button {
+  border: 0;
+  color: white;
+  background: red;
+  padding: 12px 25px;
+  margin-left: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+img {
+  margin-top: 40px;
+  border-radius: 100%;
+  width: 230px;
+  height: 230px;
+}
+
+ul {
+  display: inline;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 110px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 25px 0;
+}
+
+/* This is the Media state */
+@media only screen and (max-width: 700px) {
+  header {
+    margin: 0;
+    padding: 3px 0;
+    position: static;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  li {
+    display: block;
+    margin: 5px auto;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h1 {
+    margin: 25px 0;
+    font-size: 23px;
+    text-align: center;
+  }
+
+  p {
+    margin: 10px 12px;
+    font-size: 18px;
+  }
+
+  input {
+    margin: 20px auto 8px auto;
+    display: block;
+    border: 0;
+    padding: 11px;
+    font-size: 12px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    width: 200px;
+  }
+}
