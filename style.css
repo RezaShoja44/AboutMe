@@ -28,6 +28,10 @@ input {
   width: 23.8%;
 }
 
+input:hover {
+  box-shadow: 0 0 3px rgb(214, 213, 213);
+}
+
 button {
   border: 0;
   color: white;
@@ -41,11 +45,9 @@ button {
 button:hover {
   border: 2px solid rgb(43, 98, 218);
   color: rgb(43, 98, 218);
-  background: white;
-  padding: 12px 25px;
+  background: rgb(235, 232, 232);
+  padding: 10px 23px;
   margin-left: 8px;
-  font-size: 16px;
-  border-radius: 4px;
 }
 
 img {
@@ -137,5 +139,14 @@ h1 {
     border-radius: 8px;
     width: 200px;
     text-align: center;
+  }
+  button:hover {
+    border: 2px solid rgb(43, 98, 218);
+    color: rgb(43, 98, 218);
+    background: rgb(235, 232, 232);
+    padding: 6px;
+    margin: 3px auto 90px auto;
+    font-size: 17px;
+    border-radius: 8px;
   }
 }
