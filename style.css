@@ -16,8 +16,12 @@ body {
 }
 
 p {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 22px;
+}
+
+p:hover {
+  cursor: default;
 }
 
 input {
@@ -26,6 +30,7 @@ input {
   font-size: 16px;
   border-radius: 4px;
   width: 23.8%;
+  text-align: center;
 }
 
 input:hover {
@@ -48,10 +53,11 @@ button:hover {
   background: rgb(235, 232, 232);
   padding: 10px 23px;
   margin-left: 8px;
+  cursor: pointer;
 }
 
 img {
-  margin-top: 40px;
+  margin-top: 25px;
   border-radius: 100%;
   width: 230px;
   height: 230px;
@@ -79,7 +85,7 @@ a:hover {
 
 h1 {
   font-size: 50px;
-  margin: 25px 0;
+  margin: 10px 0;
 }
 
 /* This is the Media state */
