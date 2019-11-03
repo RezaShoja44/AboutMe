@@ -10,8 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica Neue, sans-serif;
   margin: 0 0;
 }
 
@@ -34,13 +33,14 @@ input {
 }
 
 input:hover {
-  box-shadow: 0 0 3px rgb(214, 213, 213);
+  -webkit-box-shadow: 0 0 3px #d6d5d5;
+          box-shadow: 0 0 3px #d6d5d5;
 }
 
 button {
   border: 0;
   color: white;
-  background: rgb(43, 98, 218);
+  background: #2b62da;
   padding: 12px 25px;
   margin-left: 8px;
   font-size: 16px;
@@ -48,9 +48,9 @@ button {
 }
 
 button:hover {
-  border: 2px solid rgb(43, 98, 218);
-  color: rgb(43, 98, 218);
-  background: rgb(235, 232, 232);
+  border: 2px solid #2b62da;
+  color: #2b62da;
+  background: #ebe8e8;
   padding: 10px 23px;
   margin-left: 8px;
   cursor: pointer;
@@ -79,7 +79,7 @@ a {
 }
 
 a:hover {
-  border-bottom: 3px solid rgb(88, 131, 226);
+  border-bottom: 3px solid #5883e2;
   border-radius: 2px;
 }
 
@@ -94,37 +94,30 @@ h1 {
     margin: 0;
     padding: 3px 0;
   }
-
   body {
     background-repeat: no-repeat;
     background-size: auto;
   }
-
   li {
     display: block;
     margin: 5px auto;
   }
-
   a {
     font-size: 18px;
   }
-
   img {
     width: 180px;
     height: 180px;
   }
-
   h1 {
     margin: 25px 0;
     font-size: 23px;
     text-align: center;
   }
-
   p {
     margin: 10px 12px;
     font-size: 18px;
   }
-
   input {
     margin: 20px auto 8px auto;
     display: block;
@@ -135,7 +128,6 @@ h1 {
     width: 200px;
     text-align: center;
   }
-
   button {
     display: block;
     margin: 3px auto 90px auto;
@@ -147,12 +139,13 @@ h1 {
     text-align: center;
   }
   button:hover {
-    border: 2px solid rgb(43, 98, 218);
-    color: rgb(43, 98, 218);
-    background: rgb(235, 232, 232);
+    border: 2px solid #2b62da;
+    color: #2b62da;
+    background: #ebe8e8;
     padding: 6px;
     margin: 3px auto 90px auto;
     font-size: 17px;
     border-radius: 8px;
   }
 }
+/*# sourceMappingURL=style.css.map */
