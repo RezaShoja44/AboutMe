@@ -3,6 +3,6 @@ $(document).ready(function() {
     alert("Thanks for Submitting Your Email. I'll be in touche with U!");
   });
   $("a").click(function() {
-    alert("This Part is under Maintanance!");
+    alert("This Part is under Maintanance! This is temporary!");
   });
 });
