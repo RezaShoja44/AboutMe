@@ -23,6 +23,15 @@ p:hover {
   cursor: default;
 }
 
+.AboutMe {
+  margin: 0 auto;
+  width: 600px;
+  background-color: rgba(88, 88, 88, 0.712);
+  padding: 30px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
 input {
   border: 0;
   padding: 11px;
@@ -86,6 +95,11 @@ a:hover {
 h1 {
   font-size: 50px;
   margin: 10px 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 40px 0;
 }
 
 /* This is the Media state */
