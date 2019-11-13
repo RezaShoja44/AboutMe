@@ -12,13 +12,13 @@ body {
   background-position: center;
   color: #ffffff;
   margin: 0 0;
-  font-family: 'Rajdhani', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica Neue, sans-serif;
+  font-family: "Rajdhani", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica Neue, sans-serif;
 }
 
 p {
   margin-top: 15px;
   font-size: 24px;
-  line-height: 10px;
+  line-height: 35px;
 }
 
 p:hover {
@@ -27,7 +27,6 @@ p:hover {
 
 .AboutMe {
   margin: 20px auto 35px auto;
-  line-height: 35px;
   width: 600px;
   background-color: rgba(88, 88, 88, 0.712);
   padding: 30px;
@@ -50,7 +49,7 @@ input:hover {
 }
 
 button {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   border: 0;
   color: white;
   background: #2b62da;
@@ -76,6 +75,18 @@ img {
   height: 230px;
 }
 
+.ContactImage {
+  border-radius: 0;
+  margin: 70px 30px 50px 30px;
+  width: 75px;
+  height: 75px;
+  outline: none;
+}
+
+.ContactImage:hover {
+  border: 0;
+}
+
 ul {
   display: inline;
   padding: 0;
@@ -89,6 +100,7 @@ li {
 a {
   color: white;
   text-decoration: none;
+  outline: none;
 }
 
 a:hover {

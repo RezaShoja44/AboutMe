@@ -1,225 +1,242 @@
+$CartBackground: rgba(88, 88, 88, 0.712);
+$HeaderBackground: rgba(0, 0, 0, 0.6);
+$CartBorder: white;
+$InputHowerShadow: rgb(214, 213, 213);
+$BlueBack: rgb(43, 98, 218);
+
 header {
-  font-size: 20px;
-  position: static;
-  padding: 20px 50px;
-  background: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    position: static;
+    padding: 20px 50px;
+    background: $HeaderBackground;
 }
 
 body {
-  text-align: center;
-  background: url("teh.png");
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  margin: 0 0;
-  font-family: 'Rajdhani', sans-serif,
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica Neue, sans-serif;
-
+    text-align: center;
+    background: url("teh.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    margin: 0 0;
+    font-family: "Rajdhani", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica Neue, sans-serif;
 }
 
 p {
-  margin-top: 15px;
-  font-size: 24px;
-  line-height: 10px;
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 35px;
 
-  &:hover {
-    cursor: default;
-  }
+    &:hover {
+        cursor: default;
+    }
 }
 
 .AboutMe {
-  margin: 20px auto 35px auto;
-  line-height: 35px;
-  width: 600px;
-  background-color: rgba(88, 88, 88, 0.712);
-  padding: 30px;
-  border: 3px solid white;
-  border-radius: 10px;
+    margin: 20px auto 35px auto;
+    width: 600px;
+    background-color: $CartBackground;
+    padding: 30px;
+    border: 3px solid $CartBorder;
+    border-radius: 10px;
 }
 
 input {
-  border: 0;
-  padding: 11px;
-  font-size: 16px;
-  border-radius: 4px;
-  width: 23.8%;
-  text-align: center;
+    border: 0;
+    padding: 11px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 23.8%;
+    text-align: center;
 
-  &:hover {
-    box-shadow: 0 0 3px rgb(214, 213, 213);
-  }
+    &:hover {
+        box-shadow: 0 0 3px $InputHowerShadow;
+    }
 }
 
 button {
-  font-family: 'Rajdhani', sans-serif;
-  border: 0;
-  color: white;
-  background: rgb(43, 98, 218);
-  padding: 9px 25px;
-  margin-left: 8px;
-  font-size: 19px;
-  font-weight: bold;
-  border-radius: 4px;
+    font-family: "Rajdhani", sans-serif;
+    border: 0;
+    color: white;
+    background: $BlueBack;
+    padding: 9px 25px;
+    margin-left: 8px;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 4px;
 
-  &:hover {
-    border: 2px solid rgb(43, 98, 218);
-    color: rgb(43, 98, 218);
-    background: rgb(235, 232, 232);
-    padding: 7px 23px;
-    cursor: pointer;
-  }
+    &:hover {
+        border: 2px solid $BlueBack;
+        color: $BlueBack;
+        background: rgb(235, 232, 232);
+        padding: 7px 23px;
+        cursor: pointer;
+    }
 }
 
 img {
-  margin-top: 25px;
-  border-radius: 100%;
-  width: 230px;
-  height: 230px;
+    margin-top: 25px;
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+}
+
+.ContactImage {
+    border-radius: 0;
+    margin: 70px 30px 50px 30px;
+    width: 75px;
+    height: 75px;
+    outline: none;
+
+    &:hover {
+        border: 0;
+    }
 }
 
 ul {
-  display: inline;
-  padding: 0;
+    display: inline;
+    padding: 0;
 }
 
 li {
-  display: inline;
-  margin: 0 110px;
+    display: inline;
+    margin: 0 110px;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    outline: none;
 
-  &:hover {
-    border-bottom: 3px solid rgb(88, 131, 226);
-    border-radius: 2px;
-  }
+    &:hover {
+        border-bottom: 3px solid rgb(88, 131, 226);
+        border-radius: 2px;
+    }
 }
 
 .index-redirection {
-  padding: 1px 150px;
-  font-size: 29px;
-  // background: rgba(184, 180, 180, 0.712);
-  border: 3px solid rgb(43, 98, 218);
-  border-radius: 5px;
-  color: white;
-  background: rgb(43, 98, 218);
+    padding: 1px 150px;
+    font-size: 29px;
 
-
-  &:hover {
+    // background: rgba(184, 180, 180, 0.712);
+    border: 3px solid $BlueBack;
     border-radius: 5px;
-    border: 3px solid white;
-    background: rgb(236, 230, 230);
-    // color: rgba(37, 36, 36, 0.712);
-    color: rgb(43, 98, 218);
-  }
+    color: white;
+    background: $BlueBack;
+
+    &:hover {
+        border-radius: 5px;
+        border: 3px solid white;
+        background: rgb(236, 230, 230);
+        color: $BlueBack;
+
+        // color: rgba(37, 36, 36, 0.712);
+
+    }
 }
 
 h1 {
-  font-size: 55px;
-  margin: 10px 0;
+    font-size: 55px;
+    margin: 10px 0;
 }
 
 h2 {
-  font-size: 40px;
-  margin: 40px 0;
+    font-size: 40px;
+    margin: 40px 0;
 }
 
 /* This is the Media state */
+
 @media only screen and (max-width: 700px) {
-  header {
-    margin: 0;
-    padding: 3px 0;
-  }
-
-  body {
-    background-repeat: no-repeat;
-    background-size: auto;
-  }
-
-  li {
-    display: block;
-    margin: 5px auto;
-  }
-
-  a {
-    font-size: 18px;
-  }
-
-  img {
-    width: 180px;
-    height: 180px;
-  }
-
-  h1 {
-    margin: 25px 0;
-    font-size: 23px;
-    text-align: center;
-  }
-
-  p {
-    margin: 10px 12px;
-    font-size: 18px;
-  }
-
-  .AboutMe {
-    margin: 10px 10px;
-    width: auto;
-    background-color: rgba(88, 88, 88, 0.712);
-    padding: 15px;
-    border: 3px solid white;
-    border-radius: 10px;
-  }
-
-  input {
-    margin: 20px auto 8px auto;
-    display: block;
-    border: 0;
-    padding: 11px;
-    font-size: 15px;
-    border-radius: 8px;
-    width: 200px;
-    text-align: center;
-  }
-
-  .index-redirection {
-    display: inline-block;
-    margin: 3px auto 90px auto;
-    padding: 2px 15px;
-    font-size: 26px;
-    background-color: rgba(184, 180, 180, 0.712);
-    border: 3px solid rgba(184, 180, 180, 0.712);
-    border-radius: 5px;
-
-
-    &:hover {
-      border-radius: 5px;
-      border: 3px solid white;
-      background-color: white;
-      color: rgba(37, 36, 36, 0.712);
+    header {
+        margin: 0;
+        padding: 3px 0;
     }
-  }
 
-  button {
-    display: inline-block;
-    margin: 3px auto 90px auto;
-    border: 0;
-    padding: 8px;
-    font-size: 17px;
-    border-radius: 8px;
-    width: 200px;
-    text-align: center;
-
-    &:hover {
-      border: 2px solid rgb(43, 98, 218);
-      color: rgb(43, 98, 218);
-      background: rgb(235, 232, 232);
-      padding: 6px;
-      margin: 3px auto 90px auto;
-      font-size: 17px;
-      border-radius: 8px;
+    body {
+        background-repeat: no-repeat;
+        background-size: auto;
     }
-  }
+
+    li {
+        display: block;
+        margin: 5px auto;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+    }
+
+    h1 {
+        margin: 25px 0;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    p {
+        margin: 10px 12px;
+        font-size: 18px;
+    }
+
+    .AboutMe {
+        margin: 10px 10px;
+        width: auto;
+        background-color: rgba(88, 88, 88, 0.712);
+        padding: 15px;
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+
+    input {
+        margin: 20px auto 8px auto;
+        display: block;
+        border: 0;
+        padding: 11px;
+        font-size: 15px;
+        border-radius: 8px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .index-redirection {
+        display: inline-block;
+        margin: 3px auto 90px auto;
+        padding: 2px 15px;
+        font-size: 26px;
+        background-color: rgba(184, 180, 180, 0.712);
+        border: 3px solid rgba(184, 180, 180, 0.712);
+        border-radius: 5px;
+
+        &:hover {
+            border-radius: 5px;
+            border: 3px solid white;
+            background-color: white;
+            color: rgba(37, 36, 36, 0.712);
+        }
+    }
+
+    button {
+        display: inline-block;
+        margin: 3px auto 90px auto;
+        border: 0;
+        padding: 8px;
+        font-size: 17px;
+        border-radius: 8px;
+        width: 200px;
+        text-align: center;
+
+        &:hover {
+            border: 2px solid $BlueBack;
+            color: $BlueBack;
+            background: rgb(235, 232, 232);
+            padding: 6px;
+            margin: 3px auto 90px auto;
+            font-size: 17px;
+            border-radius: 8px;
+        }
+    }
 }
