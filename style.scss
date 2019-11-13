@@ -25,7 +25,7 @@ p {
 }
 
 .AboutMe {
-  margin: 20px auto 50px auto;
+  margin: 20px auto 35px auto;
   width: 600px;
   background-color: rgba(88, 88, 88, 0.712);
   padding: 30px;
@@ -93,15 +93,17 @@ a {
 }
 
 .index-redirection {
-  padding: 5px 10px;
+  padding: 4px 10px;
   font-size: 30px;
   background-color: rgba(184, 180, 180, 0.712);
-  border: 3px solid rgb(216, 212, 212);
+  border: 3px solid rgba(184, 180, 180, 0.712);
   border-radius: 5px;
 
   &:hover {
     border-radius: 5px;
-    border: 3px solid black;
+    border: 3px solid white;
+    background-color: white;
+    color: rgba(37, 36, 36, 0.712);
   }
 }
 
@@ -152,6 +154,14 @@ h2 {
     font-size: 18px;
   }
 
+  .AboutMe {
+    margin: 10px 10px;
+    width: auto;
+    background-color: rgba(88, 88, 88, 0.712);
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
   input {
     margin: 20px auto 8px auto;
     display: block;
@@ -162,9 +172,25 @@ h2 {
     width: 200px;
     text-align: center;
   }
+  .index-redirection {
+    display: inline-block;
+    margin: 3px auto 90px auto;
+    padding: 2px 15px;
+    font-size: 26px;
+    background-color: rgba(184, 180, 180, 0.712);
+    border: 3px solid rgba(184, 180, 180, 0.712);
+    border-radius: 5px;
 
+  
+    &:hover {
+      border-radius: 5px;
+      border: 3px solid white;
+      background-color: white;
+      color: rgba(37, 36, 36, 0.712);
+    }
+  }
   button {
-    display: block;
+    display: inline-block;
     margin: 3px auto 90px auto;
     border: 0;
     padding: 8px;
