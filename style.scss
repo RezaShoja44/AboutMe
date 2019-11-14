@@ -1,8 +1,12 @@
 $CartBackground: rgba(88, 88, 88, 0.712);
 $HeaderBackground: rgba(0, 0, 0, 0.6);
 $CartBorder: white;
-$InputHowerShadow: rgb(214, 213, 213);
-$BlueBack: rgb(43, 98, 218);
+$InputHoverShadow: rgb(214, 213, 213);
+$PrimaryColor: rgb(240, 133, 10);
+$GrayBack: rgba(184, 180, 180, 0.712);
+// $PrimaryColor: #053955;
+// $ListHoverColor: rgb(88, 131, 226);
+$ListHoverColor: rgb(240, 133, 10);
 
 header {
     font-size: 20px;
@@ -31,15 +35,6 @@ p {
     }
 }
 
-.AboutMe {
-    margin: 20px auto 35px auto;
-    width: 600px;
-    background-color: $CartBackground;
-    padding: 30px;
-    border: 3px solid $CartBorder;
-    border-radius: 10px;
-}
-
 input {
     border: 0;
     padding: 11px;
@@ -49,7 +44,7 @@ input {
     text-align: center;
 
     &:hover {
-        box-shadow: 0 0 3px $InputHowerShadow;
+        box-shadow: 0 0 3px $InputHoverShadow;
     }
 }
 
@@ -57,7 +52,7 @@ button {
     font-family: "Rajdhani", sans-serif;
     border: 0;
     color: white;
-    background: $BlueBack;
+    background: $PrimaryColor;
     padding: 9px 25px;
     margin-left: 8px;
     font-size: 19px;
@@ -65,8 +60,8 @@ button {
     border-radius: 4px;
 
     &:hover {
-        border: 2px solid $BlueBack;
-        color: $BlueBack;
+        border: 2px solid $PrimaryColor;
+        color: $PrimaryColor;
         background: rgb(235, 232, 232);
         padding: 7px 23px;
         cursor: pointer;
@@ -78,18 +73,6 @@ img {
     border-radius: 100%;
     width: 230px;
     height: 230px;
-}
-
-.ContactImage {
-    border-radius: 0;
-    margin: 70px 30px 50px 30px;
-    width: 75px;
-    height: 75px;
-    outline: none;
-
-    &:hover {
-        border: 0;
-    }
 }
 
 ul {
@@ -108,29 +91,8 @@ a {
     outline: none;
 
     &:hover {
-        border-bottom: 3px solid rgb(88, 131, 226);
+        border-bottom: 3px solid $ListHoverColor    ;
         border-radius: 2px;
-    }
-}
-
-.index-redirection {
-    padding: 1px 150px;
-    font-size: 29px;
-
-    // background: rgba(184, 180, 180, 0.712);
-    border: 3px solid $BlueBack;
-    border-radius: 5px;
-    color: white;
-    background: $BlueBack;
-
-    &:hover {
-        border-radius: 5px;
-        border: 3px solid white;
-        background: rgb(236, 230, 230);
-        color: $BlueBack;
-
-        // color: rgba(37, 36, 36, 0.712);
-
     }
 }
 
@@ -142,6 +104,46 @@ h1 {
 h2 {
     font-size: 40px;
     margin: 40px 0;
+}
+
+.ContactImage {
+    border-radius: 0;
+    margin: 20px 30px 20px 30px;
+    width: 75px;
+    height: 75px;
+    outline: none;
+
+    &:hover {
+        border: 0;
+    }
+}
+
+.index-redirection {
+    // position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 1px 150px;
+    font-size: 29px;
+    border: 3px solid $PrimaryColor;
+    border-radius: 10px;
+    color: white;
+    background: $PrimaryColor;
+
+    &:hover {
+        border-radius: 10px;
+        border: 3px solid white;
+        background: rgb(236, 230, 230);
+        color: $PrimaryColor;
+    }
+}
+
+.AboutMe {
+    margin: 20px auto 30px auto;
+    width: 600px;
+    background-color: $CartBackground;
+    padding: 30px;
+    border: 3px solid $CartBorder;
+    border-radius: 10px;
 }
 
 /* This is the Media state */
@@ -230,8 +232,8 @@ h2 {
         text-align: center;
 
         &:hover {
-            border: 2px solid $BlueBack;
-            color: $BlueBack;
+            border: 2px solid $PrimaryColor;
+            color: $PrimaryColor;
             background: rgb(235, 232, 232);
             padding: 6px;
             margin: 3px auto 90px auto;

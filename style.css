@@ -25,15 +25,6 @@ p:hover {
   cursor: default;
 }
 
-.AboutMe {
-  margin: 20px auto 35px auto;
-  width: 600px;
-  background-color: rgba(88, 88, 88, 0.712);
-  padding: 30px;
-  border: 3px solid white;
-  border-radius: 10px;
-}
-
 input {
   border: 0;
   padding: 11px;
@@ -52,7 +43,7 @@ button {
   font-family: "Rajdhani", sans-serif;
   border: 0;
   color: white;
-  background: #2b62da;
+  background: #f0850a;
   padding: 9px 25px;
   margin-left: 8px;
   font-size: 19px;
@@ -61,8 +52,8 @@ button {
 }
 
 button:hover {
-  border: 2px solid #2b62da;
-  color: #2b62da;
+  border: 2px solid #f0850a;
+  color: #f0850a;
   background: #ebe8e8;
   padding: 7px 23px;
   cursor: pointer;
@@ -73,18 +64,6 @@ img {
   border-radius: 100%;
   width: 230px;
   height: 230px;
-}
-
-.ContactImage {
-  border-radius: 0;
-  margin: 70px 30px 50px 30px;
-  width: 75px;
-  height: 75px;
-  outline: none;
-}
-
-.ContactImage:hover {
-  border: 0;
 }
 
 ul {
@@ -104,24 +83,8 @@ a {
 }
 
 a:hover {
-  border-bottom: 3px solid #5883e2;
+  border-bottom: 3px solid #f0850a;
   border-radius: 2px;
-}
-
-.index-redirection {
-  padding: 1px 150px;
-  font-size: 29px;
-  border: 3px solid #2b62da;
-  border-radius: 5px;
-  color: white;
-  background: #2b62da;
-}
-
-.index-redirection:hover {
-  border-radius: 5px;
-  border: 3px solid white;
-  background: #ece6e6;
-  color: #2b62da;
 }
 
 h1 {
@@ -132,6 +95,45 @@ h1 {
 h2 {
   font-size: 40px;
   margin: 40px 0;
+}
+
+.ContactImage {
+  border-radius: 0;
+  margin: 20px 30px 20px 30px;
+  width: 75px;
+  height: 75px;
+  outline: none;
+}
+
+.ContactImage:hover {
+  border: 0;
+}
+
+.index-redirection {
+  width: 100%;
+  bottom: 0;
+  padding: 1px 150px;
+  font-size: 29px;
+  border: 3px solid #f0850a;
+  border-radius: 10px;
+  color: white;
+  background: #f0850a;
+}
+
+.index-redirection:hover {
+  border-radius: 10px;
+  border: 3px solid white;
+  background: #ece6e6;
+  color: #f0850a;
+}
+
+.AboutMe {
+  margin: 20px auto 30px auto;
+  width: 600px;
+  background-color: rgba(88, 88, 88, 0.712);
+  padding: 30px;
+  border: 3px solid white;
+  border-radius: 10px;
 }
 
 /* This is the Media state */
@@ -208,8 +210,8 @@ h2 {
     text-align: center;
   }
   button:hover {
-    border: 2px solid #2b62da;
-    color: #2b62da;
+    border: 2px solid #f0850a;
+    color: #f0850a;
     background: #ebe8e8;
     padding: 6px;
     margin: 3px auto 90px auto;
